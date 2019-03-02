@@ -1,5 +1,10 @@
 # AutoVideoCut
-Automatically video highlights based on audio and video cues. 
+Automatically video highlights/edit based on audio and video cues. Please open
+
+https://github.com/shunguang/AutoVideoCut/blob/master/web/zipFiles/rgbVideoEditorUserManual_v1.0.pdf
+
+to see the deatiled description of this tool. It covers video/audio decoding/encoing, demuxing/muxing, as well as GUI, etc.
+
 
 1. Prerequisite pkgs 
     - fftw-3.3.5-dll64
