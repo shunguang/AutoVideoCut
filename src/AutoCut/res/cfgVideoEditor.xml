@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfg>
+  <games>
+    <!--game>
+      <name>ArmourU12-vs-Arlinton</name>
+      <date>12/27/2017</date>
+      <score>L2-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/swu/JustinGameVideos</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>2017-09-23_BA02_Arlington.mp4</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/D_SMILEZ_-_01_-_Battle_of_The_Lifetime_Ambient_Trance.mp3</mp3File>
+    </game-->
+      <game>
+      <name>SACBAPreAcademy-vs-Pachuca</name>
+      <date>08/19/2017</date>
+      <score>W2-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/EDP Fall Kickoff MD</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyVsPachuca_Part1.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part2.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part3.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/D_SMILEZ_-_01_-_Battle_of_The_Lifetime_Ambient_Trance.mp3</mp3File>
+    </game>
+  </games>
+  <timeFreqAna>
+    <winSz>4800</winSz>
+    <stepSz>2400</stepSz>
+    <nFFT>12000</nFFT>
+    <!--given a video with t sec length, we will pickup the top  ceil(t/nSec4EachRawAppluasing) raw applausings inside it. -->
+    <nSec4EachRawAppluasing>20</nSec4EachRawAppluasing>
+    <nMaxHotSeg4EachVideoToCut>3</nMaxHotSeg4EachVideoToCut>
+  </timeFreqAna>
+  <output>
+    <outputVideoFolder>C:/Projects/AutoCut/data</outputVideoFolder>
+    <outputVideoFmt>mp4</outputVideoFmt>
+    <!--headerVidoeFilePath>C:/Projects/AutoCut/data/head1.mp4</headerVidoeFilePath-->
+    <!--insertingVidoeFilePath>C:/Projects/AutoCut/data/mp3/space_static_noise.mp4</insertingVidoeFilePath-->
+    <headerVidoeFilePath>noFile</headerVidoeFilePath>
+    <insertingVidoeFilePath>noFile</insertingVidoeFilePath>
+
+    <!-- originalAudioIntensity [0,1] -->
+    <!-- outputAudio = originalAudioIntensity * I_rawAudio + (1-originalAudioIntensity)*I_mp3 -->
+    <originalAudioIntensity>0.3</originalAudioIntensity>
+    <!--the video segment in [tEndAppausing-highlightSegmentLengthInSec, tEndAppausing] will be selected as higliged segments -->
+    <highlightSegmentLengthInSec>15</highlightSegmentLengthInSec>
+    <minApplausingTimeSec>2</minApplausingTimeSec>
+    <minSegmentTimeSec>5</minSegmentTimeSec>
+    <isRenderTeamInfo>0</isRenderTeamInfo>
+  </output>
+  
+  <gui>
+    <fontSize>8</fontSize>
+    <!--set(-1,-1) to original size -->
+    <dispImgWidth>1152</dispImgWidth>
+    <dispImgHeight>648</dispImgHeight>
+    <dispImgWidthInit>1000</dispImgWidthInit>
+    <dispImgHeightInit>200</dispImgHeightInit>
+    <thumbnailWidth>640</thumbnailWidth>;
+    <thumbnailHeight>480</thumbnailHeight>;
+  </gui>
+
+  <dataContainer>
+    <qSize>50</qSize>  
+  </dataContainer>
+  
+  <log>
+    <projProfileFolder>C:/Projects/AutoCut/data/PreAcademySoccer/preDecodedProfiles</projProfileFolder>
+    <logFolder>c:/temp</logFolder>
+    <isDumpLog>1</isDumpLog>
+    <isShowLogInConsole>1</isShowLogInConsole>
+    <isDumpSelectedRawAudio>0</isDumpSelectedRawAudio>
+  </log>
+</cfg>

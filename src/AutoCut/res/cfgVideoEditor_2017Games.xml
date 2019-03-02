@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfg>
+  <games>
+    <!-- August -->
+    <game>
+      <name>SACBAPreAcademy-vs-Bowie</name>
+      <date>08/19/2017</date>
+      <score>L2-3</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>None</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/chopin-nocturne-op9-no2.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy-vs-SouthCarolinaUnitedFCElite</name>
+      <date>12/27/2017</date>
+      <score>L2-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part1.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part2.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part3.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy-vs-Pachuca</name>
+      <date>08/19/2017</date>
+      <score>W2-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/EDP Fall Kickoff MD</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyVsPachuca_Part1.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part2.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part3.MTS</video>
+        <video>SACBAPreAcademyVsPachuca_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/D_SMILEZ_-_01_-_Battle_of_The_Lifetime_Ambient_Trance.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPreAcademy-vs-BraUSA</name>
+      <date>08/20/2017</date>
+      <score>T2-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/EDP Fall Kickoff MD</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyVsBraUSA_Part1.MTS</video>
+        <video>SACBAPreAcademyVsBraUSA_Part2.MTS</video>
+        <video>SACBAPreAcademyVsBraUSA_Part3.MTS</video>
+        <video>SACBAPreAcademyVsBraUSA_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/D_SMILEZ_-_10_-_The_Final_Battle_Tron_Style.mp3</mp3File>
+    </game>
+
+    <!-- September -->
+    <game>
+      <name>SACBAPreAcademy2004-vs-LMSCInvictus</name>
+      <date>09/02/2017</date>
+      <score>L0-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Lou Ramos Classic/Game1_LMSCInvictus</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsLMSCInvictus_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsLMSCInvictus_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsLMSCInvictus_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsLMSCInvictus_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Dylan_Hekimian_-_01_-_Battle.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy2004-vs-UkrainianNationalsBlack</name>
+      <date>09/02/2017</date>
+      <score>L1-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Lou Ramos Classic/Game2_UkrainianNationalsBlack</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsUkrainianNationalsBlack_Part1.MTS</video>
+        <video>Game2_UkrainianNationalsBlack/SACBAPreAcademy2004vsUkrainianNationalsBlack_Part2.MTS</video>
+        <video>Game2_UkrainianNationalsBlack/SACBAPreAcademy2004vsUkrainianNationalsBlack_Part3.MTS</video>
+        <video>Game2_UkrainianNationalsBlack/SACBAPreAcademy2004vsUkrainianNationalsBlack_Part4.MTS</video>
+      </videoFiles>
+     <mp3File>C:/Projects/AutoCut/data/mp3/Ian_Alex_Mac_-_01_-_Battle_for_the_End_Zone.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPreAcademy2004-vs-FCUSABlue</name>
+      <date>09/03/2017</date>
+      <score>W1-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Lou Ramos Classic/Game3_FCUSABlue</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsFCUSABlue_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSABlue_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSABlue_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSABlue_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Komiku_-_09_-_Battle_with_the_childhood_friend.mp3</mp3File>
+    </game>
+    <game>
+      <name>SACBAPreAcademy-vs-BarUSA-EDP</name>
+      <date>09/09/2017</date>
+      <score>T3-3</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>None</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Komiku_-_13_-_Battle_Theme.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy-vs-GPSDelawareRevolutionRed</name>
+      <date>09/16/2017</date>
+      <score>W5-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Game 2 GPSDelawareRevolutionRed</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>/SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part4.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part5.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part6.MTS</video>
+        <video>SACBAPreAcademy2004vsGPSDelawareRevolutionRed_Part7.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Leon_Lishner_and_Friends_-_22_-_Oh_What_A_Charming_Things_A_Battle_England_from_The_Recruiting_Serjeant.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPreAcademy2004-vs-FCUSA</name>
+      <date>09/23/2017</date>
+      <score>W4-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Game 4 FCUSA</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsFCUSA_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSA_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSA_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSA_Part4.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSA_Part5.MTS</video>
+        <video>SACBAPreAcademy2004vsFCUSA_Part6.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPreAcademy2004-vs-Pipeline</name>
+      <date>09/24/2017</date>
+      <score>L3-4</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>None</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_06_-_Old_battle_theme_2.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>EDPOpenCup_SACBAPreAcademy2004-vs-PipelinePreAcademy</name>
+      <date>09/30/2017</date>
+      <score>L1-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/EDP Open Cup - Pipeline</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part1.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part2.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part3.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part4.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part5.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_Part6.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_OT1.MTS</video>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_OT2.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Steve_Combs_-_05_-_Monster_Battles_The_Kings_Of_Leon.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>EDPOpenCup_SACBAPreAcademy2004-vs-PipelinePreAcademy_PKs</name>
+      <date>09/30/2017</date>
+      <score>PK4-5</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/EDP Open Cup - Pipeline</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>EDPOpenCup_SACBAPreAcademy2004vsPipelinePreAcademy_PKs.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Visager_-_05_-_Battle.mp3</mp3File>
+    </game>
+
+    <!-- October -->
+    <game>
+      <name>SACBAPreAcademy-vs-FutureMonarchsBlack</name>
+      <date>10/07/2017</date>
+      <score>W3-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Columbus Invitational/Game 1 FutureMonarchsBlack</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyvsFutureMonarchsBlack_Part1.MTS</video>
+        <video>SACBAPreAcademyvsFutureMonarchsBlack_Part2.MTS</video>
+        <video>SACBAPreAcademyvsFutureMonarchsBlack_Part3.MTS</video>
+        <video>SACBAPreAcademyvsFutureMonarchsBlack_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Visager_-_21_-_Battle_Intro.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy-vs-1776UnitedFC</name>
+      <date>10/07/2017</date>
+      <score>W4-0</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Columbus Invitational/Game 2 1776UnitedFC</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyvs1776UnitedFC_Part1.MTS</video>
+        <video>SACBAPreAcademyvs1776UnitedFC_Part2.MTS</video>
+        <video>SACBAPreAcademyvs1776UnitedFC_Part3.MTS</video>
+        <video>SACBAPreAcademyvs1776UnitedFC_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Visager_-_22_-_Battle_Loop.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy-vs-LMVSCPatriots</name>
+      <date>10/08/2017</date>
+      <score>L0-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Columbus Invitational/Game 3 LMVSCPatriots</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademyvsLMVSCPatriots_Part1.MTS</video>
+        <video>SACBAPreAcademyvsLMVSCPatriots_Part2.MTS</video>
+        <video>SACBAPreAcademyvsLMVSCPatriots_Part3.MTS</video>
+        <video>SACBAPreAcademyvsLMVSCPatriots_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Yshwa_-_07_-_Battle_Rappers.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy2004-vs-Starz</name>
+      <date>10/15/2017</date>
+      <score>L0-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Game 6 Starz</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsStarz_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsStarz_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsStarz_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsStarz_Part4.MTS</video>
+        <video>SACBAPreAcademy2004vsStarz_Part5.MTS</video>
+        <video>SACBAPreAcademy2004vsStarz_Part6.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy2004-vs-FutureMonarchs_Scrimmage</name>
+      <date>10/20/2017</date>
+      <score>T4-4</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Scrimmage FutureMonarchs</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsFutureMonarchs_Scrimmage_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsFutureMonarchs_Scrimmage_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsFutureMonarchs_Scrimmage_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsFutureMonarchs_Scrimmage_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPreAcademy2004-vs-DelawareFC</name>
+      <date>10/29/2017</date>
+      <score>L1-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Game 7 Delaware FC</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part4.MTS</video>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part5.MTS</video>
+        <video>SACBAPreAcademy2004vsDelawareFC_Part6.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <!-- Novmber -->
+    <game>
+      <name>SacPreAcademy2004-vs-Joga</name>
+      <date>11/04/2017</date>
+      <score>W7-0</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>none</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPreAcademy2004-vs-LaurelLions</name>
+      <date>11/05/2017</date>
+      <score>W3-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_Fall/Game 9 Laurel Lions</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPreAcademy2004vsLaurelLions_Part1.MTS</video>
+        <video>SACBAPreAcademy2004vsLaurelLions_Part2.MTS</video>
+        <video>SACBAPreAcademy2004vsLaurelLions_Part3.MTS</video>
+        <video>SACBAPreAcademy2004vsLaurelLions_Part4.MTS</video>
+        <video>SACBAPreAcademy2004vsLaurelLions_Part5.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <!-- December -->
+    <game>
+      <name>SacPreAcademy2004-vs-NJ-Red-BARCA</name>
+      <date>12/02/2017</date>
+      <score>W4-2</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>none</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SacPreAcademy2004-vs-ManhattanScThunder_NYE</name>
+      <date>12/03/2017</date>
+      <score>L1-4</score>
+      <skip>1</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>none</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBaltimoreArmourPreAcademy-vs-SouthCarolinaUnitedFCElite</name>
+      <date>12/27/2017</date>
+      <score>L2-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game1_vsSouthCarolinaUnitedFCElite</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part1.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part2.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part3.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsSouthCarolinaUnitedFCElite_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Ask_Again_-_A_Whale_On_Its_Side.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBaltimoreArmourPreAcademy-vs-WestPascoFCPremier</name>
+      <date>12/28/2017</date>
+      <score>L1-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game2_vsWestPascoFCPremier</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBaltimoreArmourPreAcademyvsWestPascoFCPremier_Part1.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsWestPascoFCPremier_Part2.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsWestPascoFCPremier_Part3.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsWestPascoFCPremier_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBaltimoreArmourPreAcademy-vs-FCUnitedPreAcademyF50</name>
+      <date>12/29/2017</date>
+      <score>L3-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/Disney_December2017/Game3_vsFCUnitedPreAcademyF50</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBaltimoreArmourPreAcademyvsFCUnitedPreAcademyF50_Part1.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsFCUnitedPreAcademyF50_Part2.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsFCUnitedPreAcademyF50_Part3.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsFCUnitedPreAcademyF50_Part4.MTS</video>
+        <video>SACBaltimoreArmourPreAcademyvsFCUnitedPreAcademyF50_Part5.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <!-- Jan 2018 -->
+    <game>
+      <name>SacPreAcademy2004-vs-PipelinePA</name>
+      <date>01/13/2018</date>
+      <score>L0-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_2018_Winter/SACBAPAvsPipelinePA</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsPipelinePA_Part1.MTS</video>
+        <video>SACBAPAvsPipelinePA_Part2.MTS</video>
+        <video>SACBAPAvsPipelinePA_Part3.MTS</video>
+        <video>SACBAPAvsPipelinePA_Part4.MTS</video>
+        <video>SACBAPAvsPipelinePA_Part5.MTS</video>
+        <video>SACBAPAvsPipelinePA_Part6.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPA vs Pedro</name>
+      <date>01/27/2018</date>
+      <score>L3-4</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_2018_Winter/vsPedro</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsPedro_Pre.MTS</video>
+        <video>SACBAPAvsPedro_Part1.MTS</video>
+        <video>SACBAPAvsPedro_Part2.MTS</video>
+        <video>SACBAPAvsPedro_Part3.MTS</video>
+        <video>SACBAPAvsPedro_Part4.MTS</video>
+        <video>vsPedro/SACBAPAvsPedro_Part5.MTS</video>
+        <video>SACBAPAvsPedro_Part6.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <!-- Feb 2018 -->
+    <game>
+      <name>SACBAPA-vs-PipelinePAG2</name>
+      <date>2/10/2018</date>
+      <score>T1-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_2018_Winter/SACBAPAvsPipelinePAG2</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsPipelinePAG2_Part1.MTS</video>
+        <video>SACBAPAvsPipelinePAG2_Part2.MTS</video>
+        <video>SACBAPAvsPipelinePAG2_Part3.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPA vs Sergio</name>
+      <date>02/17/2018</date>
+      <score>L1-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/2017_2018_Winter/vsSergio</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsSergio_Part1.MTS</video>
+        <video>SACBAPAvsSergio_Part2.MTS</video>
+        <video>SACBAPAvsSergio_Part3.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <game>
+      <name>SACBAPAvsUkrainianNatBlk</name>
+      <date>02/24/2018</date>
+      <score>L2-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/SACBAPAvsUkrainianNatBlk</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsUkrainianNatBlk_Part1.MTS</video>
+        <video>SACBAPAvsUkrainianNatBlk_Part2.MTS</video>
+        <video>SACBAPAvsUkrainianNatBlk_Part3.MTS</video>
+        <video>SACBAPAvsUkrainianNatBlk_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+
+    <!-- Mar 2018 -->
+    <game>
+      <name>SACBAPAvsSTA-MUSC</name>
+      <date>03/10/2018</date>
+      <score>L0-6</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/JeffersonCup_March2018/STA-MUSC</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsSTA-MUSC_Part1.MTS</video>
+        <video>SACBAPAvsSTA-MUSC_Part2.MTS</video>
+        <video>SACBAPAvsSTA-MUSC_Part3.MTS</video>
+        <video>SACBAPAvsSTA-MUSC_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPAvsTeamChallengerFCBlack</name>
+      <date>03/10/2018</date>
+      <score>L0-6</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/JeffersonCup_March2018/TeamChallengerFCBlack</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsTeamChallengerFCBlack_Part1.MTS</video>
+        <video>SACBAPAvsTeamChallengerFCBlack_Part2.MTS</video>
+        <video>SACBAPAvsTeamChallengerFCBlack_Part3.MTS</video>
+        <video>SACBAPAvsTeamChallengerFCBlack_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPAvsRichmondStrikersBlack</name>
+      <date>03/11/2018</date>
+      <score>L0-3</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/JeffersonCup_March2018/RichmondStrikersBlack</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsRichmondStrikersBlack_Part1.MTS</video>
+        <video>SACBAPAvsRichmondStrikersBlack_Part2.MTS</video>
+        <video>SACBAPAvsRichmondStrikersBlack_Part3.MTS</video>
+        <video>SACBAPAvsRichmondStrikersBlack_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPAvsLDCUnitedSpartans</name>
+      <date>03/17/2018</date>
+      <score>L1-2</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/BaltimoreMania/LDCUnitedSpartans</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsLDCUnitedSpartans_Part1.MTS</video>
+        <video>SACBAPAvsLDCUnitedSpartans_Part2.MTS</video>
+        <video>SACBAPAvsLDCUnitedSpartans_Part3.MTS</video>
+        <video>SACBAPAvsLDCUnitedSpartans_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPA-vs-MarylandUnited</name>
+      <date>03/17/2018</date>
+      <score>L0-5</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/BaltimoreMania/MarylandUnited</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsMarylandUnited_Part1.MTS</video>
+        <video>SACBAPAvsMarylandUnited_Part2.MTS</video>
+        <video>SACBAPAvsMarylandUnited_Part3.MTS</video>
+        <video>SACBAPAvsMarylandUnited_Part4.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+    
+    <game>
+      <name>SACBAPA-vs-Starz</name>
+      <date>03/18/2018</date>
+      <score>T1-1</score>
+      <skip>0</skip>
+      <inputVideoFolder>C:/Projects/AutoCut/data/PreAcademySoccer/BaltimoreMania/Starz</inputVideoFolder>
+      <inputVideoFileFilter>Videos (*.mp4 *.avi *.ts)</inputVideoFileFilter>
+      <videoFiles>
+        <video>SACBAPAvsStarz_Part1.MTS</video>
+        <video>SACBAPAvsStarz_Part2.MTS</video>
+        <video>SACBAPAvsStarz_Part3.MTS</video>
+        <video>SACBAPAvsStarz_Part4.MTS</video>
+        <video>SACBAPAvsStarz_Part5.MTS</video>
+      </videoFiles>
+      <mp3File>C:/Projects/AutoCut/data/mp3/Monplaisir_-_04_-_Old_battle_theme_1.mp3</mp3File>
+    </game>
+  </games>
+
+  <team>
+    <name>SAC PreAcademy 2014 </name>
+    <folder>C:/Projects/AutoCut/data/PreAcademy14TeamInfo</folder>
+    <picFile>TeamPic-SacPreAcademy2014.jpg</picFile>
+    <coachs>
+      <coach>Ben Sipkoff</coach>
+      <coach>Geoff Moody</coach>
+    </coachs>
+    <managers>
+      <manager>Heather Tom</manager>
+      <manager>Shunguang Wu</manager>
+    </managers>
+    <treasurers>
+      <treasurer>donot care</treasurer>
+    </treasurers>
+    <roster>
+      <player>
+        <num>1</num>
+        <firstName>Hunter</firstName>
+        <lastName>Bayners</lastName>
+        <picFile>none</picFile>
+      </player>
+      <player>
+        <num>31</num>
+        <firstName>Josiah</firstName>
+        <lastName>Abraham</lastName>
+        <picFile>31-Josiah.jpg</picFile>
+      </player>
+      <player>
+        <num>12</num>
+        <firstName>Nathan</firstName>
+        <lastName>Buckely</lastName>
+        <picFile>none</picFile>
+      </player>
+      <player>
+        <num>5</num>
+        <firstName>Carter</firstName>
+        <lastName>Capodanno</lastName>
+        <picFile>5-Carter.jpg</picFile>
+      </player>
+      <player>
+        <num>9</num>
+        <firstName>Diego</firstName>
+        <lastName>Carino</lastName>
+        <picFile>9-Diego.jpg</picFile>
+      </player>
+      <player>
+        <num>11</num>
+        <firstName>Chris</firstName>
+        <lastName>DeCamillo</lastName>
+        <picFile>11-Chris.jpg</picFile>
+      </player>
+      <player>
+        <num>8</num>
+        <firstName>Andrew</firstName>
+        <lastName>Gaiano</lastName>
+        <picFile>8-Andrew.jpg</picFile>
+      </player>
+      <player>
+        <num>7</num>
+        <firstName>Caden</firstName>
+        <lastName>Heiser-Cerrato</lastName>
+        <picFile>7-Caden.jpg</picFile>
+      </player>
+      <player>
+        <num>18</num>
+        <firstName>Jason</firstName>
+        <lastName>Jia</lastName>
+        <picFile>18-Jasob.jpg</picFile>
+      </player>
+      <player>
+        <num>6</num>
+        <firstName>Michael</firstName>
+        <lastName>Moody</lastName>
+        <picFile>6-Michael.jpg</picFile>
+      </player>
+      <player>
+        <num>3</num>
+        <firstName>Tuscan</firstName>
+        <lastName>Mulinazzi</lastName>
+        <picFile>3-Tuscan.jpg</picFile>
+      </player>
+      <player>
+        <num>17</num>
+        <firstName>Anders</firstName>
+        <lastName>Nelson</lastName>
+        <picFile>17-Anders.jpg</picFile>
+      </player>
+      <player>
+        <num>21</num>
+        <firstName>Mofe</firstName>
+        <lastName>Omitowoju</lastName>
+        <picFile>21-Mofe.jpg</picFile>
+      </player>
+      <player>
+        <num>44</num>
+        <firstName>Nevan</firstName>
+        <lastName>Patcha</lastName>
+        <picFile>44-Nevan.jpg</picFile>
+      </player>
+      <player>
+        <num>27</num>
+        <firstName>Joseph</firstName>
+        <lastName>Reason</lastName>
+        <picFile>27-Joseph.jpg</picFile>
+      </player>
+
+      <player>
+        <num>22</num>
+        <firstName>Malon</firstName>
+        <lastName>Rodriguez</lastName>
+        <picFile>22-Marlon.jpg</picFile>
+      </player>
+
+      <player>
+        <num>19</num>
+        <firstName>Collin</firstName>
+        <lastName>Skipper</lastName>
+        <picFile>none</picFile>
+      </player>
+
+      <player>
+        <num>20</num>
+        <firstName>Willianm</firstName>
+        <lastName>Tom</lastName>
+        <picFile>20-William.jpg</picFile>
+      </player>
+      <player>
+        <num>16</num>
+        <firstName>Zachary</firstName>
+        <lastName>Wu</lastName>
+        <picFile>16-Zachary.jpg</picFile>
+      </player>
+      <player>
+        <num>27</num>
+        <firstName>Joseph</firstName>
+        <lastName>Reason</lastName>
+        <picFile>Reason27.jpg</picFile>
+      </player>
+    </roster>
+  </team>
+
+  <timeFreqAna>
+    <winSz>4800</winSz>
+    <stepSz>2400</stepSz>
+    <nFFT>12000</nFFT>
+    <!--given a video with t sec length, we will pickup the top  ceil(t/nSec4EachRawAppluasing) raw applausings inside it. -->
+    <nSec4EachRawAppluasing>20</nSec4EachRawAppluasing>
+    <nMaxHotSeg4EachVideoToCut>3</nMaxHotSeg4EachVideoToCut>
+  </timeFreqAna>
+
+  <output>
+    <outputVideoFolder>C:/Projects/AutoCut/data</outputVideoFolder>
+    <outputVideoFmt>mp4</outputVideoFmt>
+    <!--headerVidoeFilePath>C:/Projects/AutoCut/data/head1.mp4</headerVidoeFilePath-->
+    <!--insertingVidoeFilePath>C:/Projects/AutoCut/data/mp3/space_static_noise.mp4</insertingVidoeFilePath-->
+    <headerVidoeFilePath>noFile</headerVidoeFilePath>
+    <insertingVidoeFilePath>noFile</insertingVidoeFilePath>
+
+    <!-- originalAudioIntensity [0,1] -->
+    <!-- outputAudio = originalAudioIntensity * I_rawAudio + (1-originalAudioIntensity)*I_mp3 -->
+    <originalAudioIntensity>0.3</originalAudioIntensity>
+    <!--the video segment in [tEndAppausing-highlightSegmentLengthInSec, tEndAppausing] will be selected as higliged segments -->
+    <highlightSegmentLengthInSec>15</highlightSegmentLengthInSec>
+    <minApplausingTimeSec>2</minApplausingTimeSec>
+    <minSegmentTimeSec>5</minSegmentTimeSec>
+    <fontSize>9</fontSize>
+    <isRenderTeamInfo>0</isRenderTeamInfo>
+  </output>
+  
+  <dataContainer>
+    <qSize>50</qSize>  
+  </dataContainer>
+  
+  <log>
+    <projProfileFolder>C:/Projects/AutoCut/data/PreAcademySoccer/preDecodedProfiles</projProfileFolder>
+    <logFolder>c:/temp</logFolder>
+    <isDumpLog>1</isDumpLog>
+    <isShowLogInConsole>1</isShowLogInConsole>
+    <isDumpSelectedRawAudio>0</isDumpSelectedRawAudio>
+  </log>
+</cfg>

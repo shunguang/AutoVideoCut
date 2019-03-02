@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41206F61-70D3-497F-9AC1-CAEF92298449}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libYuv</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\AutoCut.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\AutoCut.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\AutoCut.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\AutoCut.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(PROJ_LIB);</LibraryPath>
+    <IntDir>$(PROJ_BUILD)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(PROJ_LIB);</LibraryPath>
+    <IntDir>$(PROJ_BUILD)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;COMPILER_MSVC;_WINDOWS;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libYuv\basic_types.h" />
+    <ClInclude Include="..\..\libYuv\compare.h" />
+    <ClInclude Include="..\..\libYuv\compare_row.h" />
+    <ClInclude Include="..\..\libYuv\convert.h" />
+    <ClInclude Include="..\..\libYuv\convert_argb.h" />
+    <ClInclude Include="..\..\libYuv\convert_from.h" />
+    <ClInclude Include="..\..\libYuv\convert_from_argb.h" />
+    <ClInclude Include="..\..\libYuv\cpu_id.h" />
+    <ClInclude Include="..\..\libYuv\libyuv.h" />
+    <ClInclude Include="..\..\libYuv\macros_msa.h" />
+    <ClInclude Include="..\..\libYuv\mjpeg_decoder.h" />
+    <ClInclude Include="..\..\libYuv\planar_functions.h" />
+    <ClInclude Include="..\..\libYuv\rotate.h" />
+    <ClInclude Include="..\..\libYuv\rotate_argb.h" />
+    <ClInclude Include="..\..\libYuv\rotate_row.h" />
+    <ClInclude Include="..\..\libYuv\row.h" />
+    <ClInclude Include="..\..\libYuv\scale.h" />
+    <ClInclude Include="..\..\libYuv\scale_argb.h" />
+    <ClInclude Include="..\..\libYuv\scale_row.h" />
+    <ClInclude Include="..\..\libYuv\version.h" />
+    <ClInclude Include="..\..\libYuv\video_common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libYuv\compare.cc" />
+    <ClCompile Include="..\..\libYuv\compare_common.cc" />
+    <ClCompile Include="..\..\libYuv\compare_gcc.cc" />
+    <ClCompile Include="..\..\libYuv\compare_msa.cc" />
+    <ClCompile Include="..\..\libYuv\compare_neon.cc" />
+    <ClCompile Include="..\..\libYuv\compare_neon64.cc" />
+    <ClCompile Include="..\..\libYuv\compare_win.cc" />
+    <ClCompile Include="..\..\libYuv\convert.cc" />
+    <ClCompile Include="..\..\libYuv\convert_argb.cc" />
+    <ClCompile Include="..\..\libYuv\convert_from.cc" />
+    <ClCompile Include="..\..\libYuv\convert_from_argb.cc" />
+    <ClCompile Include="..\..\libYuv\convert_jpeg.cc" />
+    <ClCompile Include="..\..\libYuv\convert_to_argb.cc" />
+    <ClCompile Include="..\..\libYuv\convert_to_i420.cc" />
+    <ClCompile Include="..\..\libYuv\cpu_id.cc" />
+    <ClCompile Include="..\..\libYuv\mjpeg_decoder.cc" />
+    <ClCompile Include="..\..\libYuv\mjpeg_validate.cc" />
+    <ClCompile Include="..\..\libYuv\planar_functions.cc" />
+    <ClCompile Include="..\..\libYuv\rotate.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_any.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_argb.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_common.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_gcc.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_msa.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_neon.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_neon64.cc" />
+    <ClCompile Include="..\..\libYuv\rotate_win.cc" />
+    <ClCompile Include="..\..\libYuv\row_any.cc" />
+    <ClCompile Include="..\..\libYuv\row_common.cc" />
+    <ClCompile Include="..\..\libYuv\row_gcc.cc" />
+    <ClCompile Include="..\..\libYuv\row_msa.cc" />
+    <ClCompile Include="..\..\libYuv\row_neon.cc" />
+    <ClCompile Include="..\..\libYuv\row_neon64.cc" />
+    <ClCompile Include="..\..\libYuv\row_win.cc" />
+    <ClCompile Include="..\..\libYuv\scale.cc" />
+    <ClCompile Include="..\..\libYuv\scale_any.cc" />
+    <ClCompile Include="..\..\libYuv\scale_argb.cc" />
+    <ClCompile Include="..\..\libYuv\scale_common.cc" />
+    <ClCompile Include="..\..\libYuv\scale_gcc.cc" />
+    <ClCompile Include="..\..\libYuv\scale_msa.cc" />
+    <ClCompile Include="..\..\libYuv\scale_neon.cc" />
+    <ClCompile Include="..\..\libYuv\scale_neon64.cc" />
+    <ClCompile Include="..\..\libYuv\scale_win.cc" />
+    <ClCompile Include="..\..\libYuv\video_common.cc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

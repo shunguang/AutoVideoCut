@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <PROJ_SRC>C:\Projects\AutoVideoCut\src</PROJ_SRC>
+    <FFTW_X64>C:\pkg\fftw\fftw-3.3.5-dll64</FFTW_X64>	
+    <BOOST_INC>C:\pkg\boost_1_63_0</BOOST_INC>
+    <BOOST_LIB>C:\pkg\boost_1_63_0\lib64-msvc-14.0</BOOST_LIB>
+    <CV_INC>C:\pkg\opencv\v3.2\install_local_w_extra_modules_vs2015x64\include</CV_INC>
+    <CV_LIB>C:\pkg\opencv\v3.2\install_local_w_extra_modules_vs2015x64\x64\vc14\lib</CV_LIB>
+    <QT_DIR>C:\pkg\Qt\5.9.1\5.9.1\msvc2017_64</QT_DIR>
+    <QT_INC>C:\pkg\Qt\5.9.1\5.9.1\msvc2017_64\include</QT_INC>
+    <QT_LIB>C:\pkg\Qt\5.9.1\5.9.1\msvc2017_64\lib</QT_LIB>
+    <FFMPEG_INC>C:\pkg\ffmpeg\ffmpeg-20170503-a75ef15-win64-dev\include</FFMPEG_INC>
+    <FFMPEG_LIB>C:\pkg\ffmpeg\ffmpeg-20170503-a75ef15-win64-dev\lib</FFMPEG_LIB>
+    <PROJ_INC>$(BOOST_INC);$(CV_INC);$(PROJ_SRC);$(QT_INC);$(FFMPEG_INC);$(FFTW_X64)</PROJ_INC>
+    <PROJ_BUILD>C:\Projects\AutoVideoCut\vs14-x64\int</PROJ_BUILD>
+    <PROJ_EXPORT>C:\Projects\AutoVideoCut\vs14-x64\bin</PROJ_EXPORT>
+    <PROJ_LIB>$(BOOST_LIB);$(CV_LIB);$(QT_LIB);$(FFMPEG_LIB);$(FFTW_X64);$(PROJ_EXPORT)\$(Configuration)</PROJ_LIB>
+    <MY_CV_LIBS>opencv_core320.lib;opencv_highgui320.lib;opencv_imgcodecs320.lib;opencv_imgproc320.lib;opencv_features2d320.lib;opencv_xfeatures2d320.lib;opencv_videoio320.lib;opencv_video320.lib;opencv_videostab320.lib;opencv_calib3d320.lib;opencv_flann320.lib;opencv_objdetect320.lib</MY_CV_LIBS>
+    <MY_CV_LIBS_D>opencv_core320d.lib;opencv_highgui320d.lib;opencv_imgcodecs320d.lib;opencv_imgproc320d.lib;opencv_features2d320d.lib;opencv_xfeatures2d320d.lib;opencv_videoio320d.lib;opencv_video320d.lib;opencv_videostab320d.lib;opencv_calib3d320d.lib;opencv_flann320d.lib;opencv_objdetect320d.lib</MY_CV_LIBS_D>
+    <MY_QT_LIBS>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5OpenGL.lib</MY_QT_LIBS>
+    <MY_QT_LIBS_D>Qt5Cored.lib;Qt5Guid.lib;Qt5Widgetsd.lib;Qt5OpenGLd.lib</MY_QT_LIBS_D>
+    <MY_FFMPEG_LIBS>avformat.lib;avutil.lib;avcodec.lib;swscale.lib;swresample.lib</MY_FFMPEG_LIBS>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>$(PROJ_EXPORT)\$(Configuration)\</OutDir>
+    <IntDir>$(PROJ_BUILD)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(PROJ_INC);</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(PROJ_LIB);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="PROJ_SRC">
+      <Value>$(PROJ_SRC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_INC">
+      <Value>$(BOOST_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIB">
+      <Value>$(BOOST_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CV_INC">
+      <Value>$(CV_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CV_LIB">
+      <Value>$(CV_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="QT_DIR">
+      <Value>$(QT_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="QT_INC">
+      <Value>$(QT_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="QT_LIB">
+      <Value>$(QT_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FFMPEG_INC">
+      <Value>$(FFMPEG_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FFMPEG_LIB">
+      <Value>$(FFMPEG_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PROJ_INC">
+      <Value>$(PROJ_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PROJ_BUILD">
+      <Value>$(PROJ_BUILD)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PROJ_EXPORT">
+      <Value>$(PROJ_EXPORT)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PROJ_LIB">
+      <Value>$(PROJ_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VISAPP_CV_LIBS">
+      <Value>$(VISAPP_CV_LIBS)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VISAPP_CV_LIBS_D">
+      <Value>$(VISAPP_CV_LIBS_D)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VISAPP_QT_LIBS">
+      <Value>$(VISAPP_QT_LIBS)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VISAPP_QT_LIBS_D">
+      <Value>$(VISAPP_QT_LIBS_D)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VISAPP_FFMPEG_LIBS">
+      <Value>$(VISAPP_FFMPEG_LIBS)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
