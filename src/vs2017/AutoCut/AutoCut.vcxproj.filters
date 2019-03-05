@@ -52,10 +52,7 @@
     <Xml Include="..\..\AutoCut\res\cfgTeamInfo.xml">
       <Filter>Resource Files</Filter>
     </Xml>
-    <Xml Include="..\..\AutoCut\res\cfgVideoEditor.xml">
-      <Filter>Resource Files</Filter>
-    </Xml>
-    <Xml Include="..\..\AutoCut\res\cfgVideoEditor_2017Games.xml">
+    <Xml Include="..\..\AutoCut\res\cfgVideoEditor---.xml">
       <Filter>Resource Files</Filter>
     </Xml>
   </ItemGroup>

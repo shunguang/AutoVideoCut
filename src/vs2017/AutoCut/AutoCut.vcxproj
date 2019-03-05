@@ -169,12 +169,10 @@
     <ClInclude Include="..\..\libAutoCut\LocateHotSegs.h" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="..\..\AutoCut\res\cfgVideoEditor.xml">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    <Xml Include="..\..\AutoCut\res\cfgTeamInfo.xml" />
+    <Xml Include="..\..\AutoCut\res\cfgVideoEditor---.xml">
       <SubType>Designer</SubType>
     </Xml>
-    <Xml Include="..\..\AutoCut\res\cfgVideoEditor_2017Games.xml" />
-    <Xml Include="..\..\AutoCut\res\cfgTeamInfo.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
